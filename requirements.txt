@@ -1,0 +1,8 @@
+pandas
+streamlit
+yfinance
+pandas_datareader
+distutils
+setuptools
+ta
+sqlalchemy

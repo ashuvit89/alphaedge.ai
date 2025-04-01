@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="400px"
+   height="100px"
+   viewBox="0 0 400 100"
+   version="1.1">
+  <g>
+    <!-- Alpha symbol -->
+    <path
+       d="M 40,85 L 60,85 L 70,55 L 80,85 L 100,85 L 120,15 L 100,15 L 90,55 L 75,15 L 55,15 L 40,55 L 30,15 L 10,15 L 40,85 z"
+       style="fill:#8a6bdf;stroke:none;" />
+    
+    <!-- Edge text -->
+    <path
+       d="M 130,50 Q 130,35 140,25 Q 150,15 170,15 L 180,15 L 180,32 L 170,32 Q 162,32 158,36 Q 154,40 154,50 Q 154,60 158,64 Q 162,68 170,68 L 180,68 L 180,85 L 170,85 Q 150,85 140,75 Q 130,65 130,50 z"
+       style="fill:#8a6bdf;stroke:none;" />
+    
+    <path
+       d="M 185,85 L 205,85 L 205,15 L 185,15 L 185,85 z"
+       style="fill:#8a6bdf;stroke:none;" />
+    
+    <path
+       d="M 225,85 L 245,85 L 245,60 L 260,85 L 285,85 L 265,55 L 285,15 L 260,15 L 245,40 L 245,15 L 225,15 L 225,85 z"
+       style="fill:#8a6bdf;stroke:none;" />
+    
+    <path
+       d="M 290,50 Q 290,35 300,25 Q 310,15 325,15 Q 340,15 350,25 Q 360,35 360,50 Q 360,65 350,75 Q 340,85 325,85 Q 310,85 300,75 Q 290,65 290,50 z M 310,50 Q 310,58 315,63 Q 320,68 325,68 Q 330,68 335,63 Q 340,58 340,50 Q 340,42 335,37 Q 330,32 325,32 Q 320,32 315,37 Q 310,42 310,50 z"
+       style="fill:#8a6bdf;stroke:none;" />
+    
+    <!-- .ai text -->
+    <path
+       d="M 370,85 L 390,85 L 390,70 L 370,70 L 370,85 z"
+       style="fill:#41d4c5;stroke:none;" />
+    
+    <path
+       d="M 370,60 L 390,60 L 390,15 L 370,15 L 370,60 z"
+       style="fill:#41d4c5;stroke:none;" />
+  </g>
+</svg>

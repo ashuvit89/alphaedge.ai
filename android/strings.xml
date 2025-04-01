@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlphaEdge.ai</string>
+    
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_portfolio">Portfolio Management</string>
+    <string name="menu_stock_analysis">Stock Analysis</string>
+    <string name="menu_recommendations">Recommendations</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_help">Help &amp; Support</string>
+    <string name="menu_logout">Logout</string>
+    
+    <!-- Activities -->
+    <string name="title_activity_stock_analysis">Stock Analysis</string>
+    <string name="title_activity_portfolio">Portfolio Management</string>
+    <string name="title_activity_recommendations">Recommendations</string>
+    <string name="title_activity_profile">User Profile</string>
+    <string name="title_activity_help">Help &amp; Support</string>
+    
+    <!-- Dashboard -->
+    <string name="portfolio_value">Portfolio Value</string>
+    <string name="daily_change">Daily Change</string>
+    <string name="total_return">Total Return</string>
+    <string name="sector_allocation">Sector Allocation</string>
+    <string name="holdings">Holdings</string>
+    
+    <!-- Stock Analysis -->
+    <string name="search_stock">Search Stock</string>
+    <string name="search">Search</string>
+    <string name="current_price">Current Price</string>
+    <string name="technical_score">Technical Score</string>
+    <string name="fundamental_score">Fundamental Score</string>
+    <string name="behavioral_score">Behavioral Score</string>
+    <string name="overall_score">Overall Score</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="technical_indicators">Technical Indicators</string>
+    <string name="fundamental_metrics">Fundamental Metrics</string>
+    <string name="price_chart">Price Chart</string>
+    
+    <!-- Recommendations -->
+    <string name="recommendation_time_horizon">Time Horizon</string>
+    <string name="short_term">Short Term</string>
+    <string name="medium_term">Medium Term</string>
+    <string name="long_term">Long Term</string>
+    <string name="suggested_position_size">Suggested Position Size</string>
+    <string name="conservative">Conservative</string>
+    <string name="moderate">Moderate</string>
+    <string name="aggressive">Aggressive</string>
+    
+    <!-- Portfolio Management -->
+    <string name="create_portfolio">Create New Portfolio</string>
+    <string name="select_portfolio">Select Portfolio</string>
+    <string name="add_stock">Add Stock</string>
+    <string name="edit_holdings">Edit Holdings</string>
+    <string name="portfolio_name">Portfolio Name</string>
+    <string name="portfolio_description">Description</string>
+    <string name="stock_symbol">Symbol</string>
+    <string name="stock_name">Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="buy_price">Buy Price</string>
+    <string name="buy_date">Buy Date</string>
+    <string name="current_value">Current Value</string>
+    <string name="profit_loss">Profit/Loss</string>
+    
+    <!-- Profile -->
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="notification_preferences">Notification Preferences</string>
+    <string name="price_alerts">Price Alerts</string>
+    <string name="recommendation_alerts">Recommendation Alerts</string>
+    <string name="portfolio_alerts">Portfolio Alerts</string>
+    
+    <!-- Help & Support -->
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="whatsapp_chat">WhatsApp Chat</string>
+    <string name="email_support">Email Support</string>
+    <string name="user_guide">User Guide</string>
+    <string name="about">About AlphaEdge.ai</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="loading">Loading…</string>
+</resources>

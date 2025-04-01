@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AlphaEdge.ai brand colors -->
+    <color name="colorPrimary">#7B68EE</color>        <!-- Light Purple -->
+    <color name="colorPrimaryDark">#6A5ACD</color>    <!-- Darker Purple -->
+    <color name="colorAccent">#40E0D0</color>         <!-- Aqua Green -->
+    
+    <!-- Text colors -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    
+    <!-- Background colors -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBackgroundLight">#F5F5F5</color>
+    <color name="colorBackgroundDark">#303030</color>
+    
+    <!-- Indicator colors -->
+    <color name="colorGreen">#4CAF50</color>     <!-- Green for positive/buy -->
+    <color name="colorRed">#F44336</color>       <!-- Red for negative/sell -->
+    <color name="colorOrange">#FF9800</color>    <!-- Orange for neutral/hold -->
+    <color name="colorBlue">#2196F3</color>      <!-- Blue for information -->
+    <color name="colorGrey">#9E9E9E</color>      <!-- Grey for disabled/inactive -->
+    
+    <!-- Chart colors -->
+    <color name="colorChartLine">#7B68EE</color>
+    <color name="colorChartGrid">#E0E0E0</color>
+    <color name="colorChartLabel">#757575</color>
+    
+    <!-- Card colors -->
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorCardStroke">#E0E0E0</color>
+    
+    <!-- Divider -->
+    <color name="colorDivider">#EEEEEE</color>
+    
+    <!-- Overlay -->
+    <color name="colorOverlay">#80000000</color>  <!-- 50% black overlay -->
+</resources>

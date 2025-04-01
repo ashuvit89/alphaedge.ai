@@ -1,0 +1,105 @@
+AI Website Builder Prompt
+Goal:
+Create a dynamic, automated stock analysis website that integrates portfolio tracking, technical & fundamental analysis, and actionable recommendations.
+
+Phase 1: Core Features
+1. Portfolio Integration (Kite Profile)
+User Authentication:
+"Enable secure login via Kite API to fetch real-time portfolio data (holdings, trades, P&L). Display holdings in a dashboard with sorting by stock name, sector, or returns."
+
+Portfolio Dashboard:
+*"Design a dashboard with:
+
+Current value, daily/weekly P&L.
+
+Visual charts for portfolio allocation (pie/bar graphs).
+
+Quick links to individual stock analysis pages."*
+
+2. Weekly Stock Analysis
+Automation:
+"Schedule weekly analysis for all stocks in the portfolio. Trigger alerts via email/SMS when a stock meets predefined criteria (e.g., RSI >70, P/E ratio spikes)."
+
+Analysis Criteria:
+
+Technical Analysis:
+
+Moving Averages:
+"Plot 50-day and 200-day moving averages. Highlight crossovers (golden/death crosses) with buy/sell signals."
+
+RSI:
+"Display RSI trends over 14-day periods. Flag overbought (RSI >70) or oversold (RSI <30) stocks with color-coded alerts."
+
+ADX:
+*"Calculate ADX values and categorize trends:
+
+Strong (ADX >25): Highlight in green.
+
+Weak (ADX <20): Highlight in red."*
+
+Fundamental Analysis:
+
+P/E Ratio:
+"Compare each stock’s P/E ratio to industry averages. Flag overvalued (P/E > industry) or undervalued (P/E < industry)."
+
+ROE & Debt-to-Equity:
+"Rank stocks by ROE (higher = better) and debt ratios (lower = safer). Add tooltips explaining metrics for novice users."
+
+Volume/Price Changes:
+"Track weekly volume spikes (>20% increase) and price swings (>5% change). Highlight anomalies in a ‘Volatility Watchlist’ section."
+
+Promoters’ Shareholding:
+"Scrape regulatory filings for promoter stake changes. Alert users if promoter holdings drop by >1% in a quarter."
+
+3. Recommendation Engine
+Action Logic:
+*"Generate weekly recommendations using weighted scoring:
+
+Buy: Strong fundamentals (ROE >15%, debt <0.5) + bullish technicals (rising ADX, RSI <60).
+
+Sell: Overvalued (P/E > industry) + bearish technicals (death cross, RSI >70).
+
+Hold: Neutral metrics or conflicting signals."*
+
+Quantity Suggestions:
+*"Calculate position size based on risk tolerance:
+
+Aggressive: Allocate 5% of portfolio per ‘Buy’ signal.
+
+Conservative: Allocate 2% per ‘Buy’ signal.
+Display rationale for each recommendation (e.g., ‘INFY: Buy 10 shares due to rising ADX & undervalued P/E’)."*
+
+Phase 2: Advanced Features (Optional)
+Backtesting Module:
+"Allow users to test strategies against historical data. Example: ‘How would a 50-day MA strategy perform on Reliance since 2020?’"
+
+Social Sentiment Integration:
+"Incorporate AI-driven sentiment analysis from news and Twitter to supplement technical/fundamental signals."
+
+Design & Tech Stack Suggestions
+Frontend:
+"Use React.js for interactive charts (via ApexCharts) and a clean, minimalist UI. Prioritize mobile responsiveness."
+
+Backend:
+"Python (Django/Flask) for analysis logic. Integrate Zerodha Kite API for live data and AWS Lambda for weekly cron jobs."
+
+Database:
+"PostgreSQL to store historical data and user portfolios."
+
+Example Output
+Stock: TCS
+
+Technical:
+
+MA Crossover: Golden cross detected (50-day > 200-day).
+
+RSI: 65 (neutral).
+
+Fundamental:
+
+P/E: 33 (industry avg: 28) → Overvalued.
+
+ROE: 18% (strong).
+
+Recommendation:
+“Hold: Conflicting signals (bullish MA crossover vs overvalued P/E). Monitor for RSI >70.”

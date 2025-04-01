@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="40px"
+   height="40px"
+   viewBox="0 0 40 40"
+   version="1.1">
+  <g>
+    <!-- Alpha symbol, scaled and centered -->
+    <path
+       d="M 10,35 L 15,35 L 17.5,22 L 22.5,35 L 27.5,35 L 35,5 L 27.5,5 L 25,22 L 20,5 L 12.5,5 L 10,22 L 7.5,5 L 2.5,5 L 10,35 z"
+       style="fill:#8a6bdf;stroke:none;" />
+    
+    <!-- Dot from .ai -->
+    <circle
+       cx="32.5"
+       cy="32.5"
+       r="3"
+       style="fill:#41d4c5;stroke:none;" />
+  </g>
+</svg>
